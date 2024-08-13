@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+      font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+    background-color: hsl(13, 31%, 94%);
+}
+
+.main-div {
+    /* background-color:  hsl(20, 50%, 98%); */
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+/* Product Menu */
+.div1 {
+    margin-top: 100px;
+    margin-left: 110px;
+    width: 840px;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(14, 65%, 9%);
+}
+
+.div1-list1 {
+    margin-top: 40px;
+    width: 840px;
+    height: 357px;
+    border: 1px solid black;
+    display: flex;
+}
+
+/* div1 and list1 */
+.list1 {
+   width: 264px;
+   /* height: 250px; */
+   height: 356px;
+   border: 1px solid black;
+   margin-right: 28px;
+}
+
+/* Image Description */
+img {
+    width: 260px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Add to Cart */
+.add-to-cart {
+    width: 165px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#list1-cart1 {
+    position: absolute;
+    top: 430px;
+    left: 170px;
+}
+
+#list1-cart2 {
+    position: absolute;
+    top: 430px;
+    left: 460px;
+}
+
+#list1-cart3 {
+    position: absolute;
+    top: 430px;
+    left: 750px;
+}
+
+/* Icon Cart Description */
+.cart-icon {
+    width: 22px;
+    height: 32px;
+}
+
+/* Add to Cart Image Description */
+
+
+
+
+.div2 {
+    margin-top: 90px;
+    margin-left: 35px;
+    width: 400px;
+    height: 315px;
+    background-color: white;
+    border: 1px solid black;
+}
